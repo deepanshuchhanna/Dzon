@@ -1,0 +1,113 @@
+import React from "react";
+import "./Home.css";
+import CopyrightIcon from "@material-ui/icons/Copyright";
+import ReactDOM from "react-dom";
+
+import Product from "./Product";
+//import ph from "../src/images/phone.jpg";
+//import lp from url(/images/laptop.jpg);
+
+//import Location from "./Location";
+// MapContainer from "./MapContainer";
+
+function Home() {
+  return (
+    <>
+      {/* <MapContainer /> */}
+      <div
+        className="home"
+        style={{ backgroundImage: "url(/images/d.jpg)" }} //--->          {/* <img className="home_d" src={web} alt="logo" />
+      >
+        <div className="home_container">
+          <div className="home_title" id="title">
+            Dzon
+            <p className="ind">
+              <p className="first">India</p>
+              <p className="mid">Stay</p>
+              <p className="last">Stong</p>
+            </p>
+            <p className="cov">[Stay Home,Stay Safe]</p>
+          </div>
+        </div>
+        <div className="home_row">
+          <Product
+            title="Realme 6 Pro Smartphone"
+            para="(Lightening Blue , 128 GB , 8 GB RAM)"
+            // price={270.49}
+            price="270.49"
+            image="images/phone.jpg"
+            rating="4.5"
+            width="320"
+            height="320"
+          />
+
+          <Product
+            id="deep"
+            title="LifeBuoy HAND SANITIZER"
+            para="(Kills 99.99% Germs Without Water-100ml)"
+            price={2.44}
+            image="images/sanit.jpg"
+            rating={4.5}
+            width="320"
+            height="320"
+          />
+
+          {/* <Product /> */}
+          {/* product */}
+          {/* </div> */}
+
+          {/* <div className="home_row1"> */}
+          <Product
+            id="deep"
+            title="Ustraa Scuba Cologne - 100 ml"
+            para="(A deep and fresh fragrance-For Men Only)"
+            price={8.13}
+            image="images/scuba.jpg"
+            rating={4}
+            width="320"
+            height="320"
+          />
+
+          <Product
+            id="deep"
+            title="Acer Nitro 5 Gaming Laptop"
+            para="(Ryzen|256GB SSD|8GB RAM|1Tb Storage)"
+            price={854.21}
+            image="images/laptop.jpg"
+            rating={4.5}
+            width="320"
+            height="320"
+          />
+
+          {/* <Product /> */}
+          {/* product */}
+          {/* </div> */}
+
+          {/* <div className="home_row2" id="row"> */}
+          <Product
+            title="SAMSUNG - 125 cm (50 inches) "
+            para="Crystal 4K Pro Series Ultra HD Smart LED TV"
+            price={974.68}
+            image="images/led.jpeg"
+            rating={5}
+            width="1070"
+            height="420"
+          />
+        </div>
+        <div className="box">
+          <CopyrightIcon className="copy" />
+          <p className="box1">2021-Deepanshu Chhanna. All Rights Reserved.</p>
+        </div>
+      </div>
+    </>
+  );
+}
+
+ReactDOM.render(
+  <>
+    <Home />
+  </>,
+  document.getElementById("root")
+);
+
+export default Home;

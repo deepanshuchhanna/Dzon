@@ -1,0 +1,179 @@
+.basetop {
+  min-height: 160vh;
+  background-color: white;
+}
+.bas {
+  min-height: 150vh;
+  /* min-height: 200vh; */
+  width: 38%;
+  background-size: cover;
+}
+
+.cart_h1 {
+  /* font-size: large*/
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  background-color: black;
+  color: goldenrod;
+  margin-top: 10px;
+  border: 4px solid lightgrey;
+  /* margin-left: 450px; */ /* thi sis used when we want to stop the animation from the title section to fix it on center */
+  width: 100%;
+  height: 60px;
+}
+
+.cart_h1:hover {
+  background-color: goldenrod;
+  color: black;
+  border: 4px solid lightgrey;
+}
+
+@keyframes cart {
+  0% {
+    font-size: 100px;
+    margin-left: 0%;
+  }
+
+  50% {
+    font-size: 100px;
+    /* float: right; */
+    margin-left: 62%;
+  }
+
+  100% {
+    font-size: 100px;
+    margin-left: 0%;
+  }
+}
+
+#h1 {
+  animation-name: cart;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.cart_common {
+  flex-flow: column;
+  flex-wrap: wrap;
+  /* min-height: 250vh; */
+  /* display: flex;*/
+}
+
+.cart_right {
+  margin-left: 1118px;
+  margin-top: -800px;
+  margin-bottom: 5px;
+  position: absolute;
+
+  /* height: 500px; */
+  /* height: 550px; */
+  /* min-height: 70vh; */
+  width: 400px;
+  height: 510px;
+  background-color: lightgrey;
+  color: black;
+  border: 10px solid white;
+  float: right;
+  /* flex-direction: column; */
+}
+
+.cart_right:hover {
+  background-color: black;
+  color: goldenrod;
+}
+
+.cart_left {
+  display: inline-flex;
+  float: left;
+  color: black;
+  margin-top: -790px;
+  background-color: lightgrey;
+  margin-right: 440px;
+  /* min-height: 158vh; */
+  margin-left: 10px;
+  border: 2px solid white;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  width: 73%;
+}
+
+.cart_h2 {
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: white;
+  border-bottom: 4px solid white;
+}
+
+#a {
+  margin-left: 1px;
+}
+
+.btn_del {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  background-color: goldenrod;
+  /* border-color: rgb(209, 200, 146); */
+  font-weight: bold;
+  margin-top: 270px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+
+  /* display: flex; */
+  /* border: 2px solid lightyellow; */
+}
+
+.btn_del:hover {
+  background-color: green;
+  color: aliceblue;
+  border-color: rgb(186, 219, 186);
+}
+
+.add {
+  /* margin-left: -420px; */
+  margin-left: 0px;
+  margin-top: -1010px;
+  margin-bottom: 800px;
+  width: 99%;
+  height: 40vh !important;
+}
+/* 
+@keyframes add {
+  30% {
+    margin-left: -38%;
+  }
+
+  60% {
+    margin-left: -18%;
+  }
+
+  70% {
+    margin-left: -25%;
+  }
+} 
+
+#add1 {
+  animation-name: add;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}*/
+
+.cross {
+  margin-top: -1150px;
+  margin-left: -25px;
+  margin-bottom: 930px;
+  color: aliceblue;
+}
+
+.cross:hover {
+  color: grey;
+}
+
+#cross1 {
+  border-radius: 40%;
+  margin-top: -1200px;
+}

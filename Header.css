@@ -1,0 +1,195 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* text-align: center;*/
+}
+
+.header_logo {
+  width: 180px;
+  object-fit: contain;
+  margin: 0 1px;
+  margin-top: 15px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header_searchIn {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  width: 300px;
+  border-radius: 3px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.header_categories {
+  height: 65px;
+}
+
+.header_searchIcon {
+  padding: 5px;
+  width: 42px !important;
+  height: 40px !important;
+  background-color: goldenrod;
+  border-radius: 3px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+  /* margin-right: 10px; */
+  color: darkolivegreen;
+}
+
+.header_optionLineOne {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.header_optionLineTwo {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.header_optionLineThree {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+
+  margin-left: 65px;
+  margin-right: 5px;
+  margin-top: -35px;
+  color: goldenrod;
+  justify-items: end;
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.header_optionLineThree:hover {
+  color: goldenrod;
+}
+
+.header_nav1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_locationIcon {
+  display: flex;
+  padding: 5px;
+  width: 35px !important;
+  height: 35px !important;
+  color: darkgreen;
+}
+
+.header_locationIcon:hover {
+  color: rgb(153, 202, 153);
+}
+
+.header_location {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+.header_locationOne {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  min-height: 1px;
+  margin-top: -18px;
+}
+
+.header_locationTwo {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn:hover {
+  color: goldenrod;
+  background-color: black;
+}
+
+.basket {
+  background-color: lightgray;
+  border: 3px solid lightgray;
+  width: 110px !important;
+  height: 12vh;
+
+  flex-direction: row;
+  display: left;
+  margin-right: 10px;
+  /* margin-right: 10px; */
+  margin-top: -35px;
+  margin-bottom: -8px;
+}
+
+.basket:hover {
+  background-color: black;
+  color: goldenrod;
+  border-color: rgb(238, 213, 151);
+}
+
+.search {
+  background-color: goldenrod;
+  border: 0px;
+  border-radius: 5%;
+}
+
+.search:hover {
+  color: white;
+}
+
+.butn {
+  margin-left: 10px;
+  max-height: 35px;
+  background-color: whitesmoke;
+  border-color: rgb(186, 218, 186);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.butn:hover {
+  background-color: black;
+  border-color: goldenrod;
+  color: goldenrod;
+}
+
+.loc {
+  margin-left: -15px;
+}
+
+/* .header_btn {
+  background-color: brown;
+  margin-left: -80px;
+} */
+
+.btn {
+  margin-right: 19px;
+  border: 1px solid skyblue;
+}
